@@ -25,7 +25,7 @@ contract Auction {
     State public AuctionState;
 
     uint bidIncrement;
-
+ 
     constructor(address eoa)
     {
         owner = payable(eoa);
